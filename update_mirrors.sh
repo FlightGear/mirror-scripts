@@ -3,55 +3,59 @@
 set -x
 
 
-cd fgtracker
-git fetch origin
+echo "------------------------------"
+cd /home/fg/fgtracker
+git fetch --prune origin
 git push --mirror git@github.com:FlightGear/fgtracker.git
 cd ..
 
 
-cd fgms
-git fetch origin
+echo "------------------------------"
+cd /home/fg/fgms
+git fetch --prune origin
 git push --mirror git@github.com:FlightGear/fgms.git
 cd ..
 
 
-
-cd flightgear
-git fetch origin
+echo "------------------------------"
+cd /home/fg/flightgear
+git fetch --prune origin
 git push --mirror git@github.com:FlightGear/flightgear.git
 cd ..
 
-
-cd simgear
-git fetch origin
+echo "------------------------------"
+cd /home/fg/simgear
+git fetch --prune origin
 git push --mirror git@github.com:FlightGear/simgear.git
 cd ..
 
-
-cd fgrun
-git fetch origin
+echo "------------------------------"
+cd /home/fg/fgrun
+git fetch --prune origin
 git push --mirror git@github.com:FlightGear/fgrun.git
 cd ..
 
-
-cd fgmeta
-git fetch origin
+echo "------------------------------"
+cd /home/fg/fgmeta
+git fetch --prune origin
 git push --mirror git@github.com:FlightGear/fgmeta.git
 cd ..
 
-
-cd openradar
-git fetch origin
+echo "------------------------------"
+cd /home/fg/openradar
+git fetch --prune origin
 git push --mirror git@github.com:FlightGear/openradar.git
 cd ..
 
-cd terragear
-git fetch origin
+echo "------------------------------"
+cd /home/fg/terragear
+git fetch --prune origin
 git push --mirror git@github.com:FlightGear/terragear.git
 cd ..
 
-cd sceneryweb
-git fetch origin
+echo "------------------------------"
+cd /home/fg/sceneryweb
+git fetch --prune origin
 git push --mirror git@github.com:FlightGear/SceneryWeb.git
 cd ..
 
