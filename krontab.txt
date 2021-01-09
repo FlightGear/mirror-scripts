@@ -1,3 +1,3 @@
 MAILTO="pedromorgan@gmail.com"
 
-30 * * * * /home/fg/mirror-script/update_mirrors.sh 
+*/15 * * * * /home/fg/mirror-script/update_mirrors.sh 
