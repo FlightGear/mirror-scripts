@@ -9,25 +9,25 @@ echo "-----------------------------------"
 git clone --mirror https://git.code.sf.net/p/fgms/src fgms
 
 echo "-----------------------------------"
-git clone --mirror https://git.code.sf.net/p/flightgear/flightgear 
+git clone --mirror https://git.code.sf.net/p/flightgear/flightgear flightgear 
 
 echo "-----------------------------------"
-git clone --mirror https://git.code.sf.net/p/flightgear/simgear
+git clone --mirror https://git.code.sf.net/p/flightgear/simgear simgear
 
 echo "-----------------------------------"
-git clone --mirror https://git.code.sf.net/p/flightgear/fgmeta
+git clone --mirror https://git.code.sf.net/p/flightgear/fgmeta fgmeta
 
 echo "-----------------------------------"
-git clone --mirror https://git.code.sf.net/p/flightgear/fgrun
+git clone --mirror https://git.code.sf.net/p/flightgear/fgrun fgrun
 
 echo "-----------------------------------"
-git clone --mirror https://git.code.sf.net/p/flightgear/openradar
+git clone --mirror https://git.code.sf.net/p/flightgear/openradar openradar
 
 echo "-----------------------------------"
-git clone --mirror https://git.code.sf.net/p/flightgear/terragear
+git clone --mirror https://git.code.sf.net/p/flightgear/terragear terragear
 
 echo "-----------------------------------"
-git clone --mirror https://git.code.sf.net/p/flightgear/sceneryweb
+git clone --mirror https://git.code.sf.net/p/flightgear/sceneryweb sceneryweb
 
 echo "-----------------------------------"
 echo "Done"
